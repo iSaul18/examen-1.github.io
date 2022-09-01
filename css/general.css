@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container-100 {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.container-110 {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.container-120 {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.container-200 {
+  max-width: 202rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.gap-5 {
+  gap: 5rem;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.line-style {
+  width: 130rem;
+  left: -64rem;
+}
+
+.display-block {
+  display: block;
+}
+
+.max-width-50 {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
