@@ -331,6 +331,7 @@
 .stars {
   display: flex;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 49%;
   gap: 0.3rem;
@@ -472,6 +473,7 @@
   padding-left: 12rem;
   display: grid;
   grid-template-columns: 1.1fr 1fr;
+  gap: 5rem;
 }
 
 .dd-text-box {
@@ -662,4 +664,120 @@
   color: #ffffffb2;
 }
 
-/*  */
+/*______MEDIA QUERY (1712px)  */
+@media (max-width: 107em) {
+  /* SECTION___BEST SELLER PRODUCT____ */
+  .best-product {
+    padding-left: 20rem;
+  }
+
+  .carrusel-overflow {
+    width: 150%;
+  }
+
+  .star {
+    width: 13%;
+    height: 13%;
+  }
+
+  .btn-circle {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  /* SECTION____DEAL-DAY */
+  .deal-day {
+    color: #000;
+    background-color: #8b6e5a;
+    height: 60rem;
+    padding-left: 3rem;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 5rem;
+  }
+
+  .dd-text-box {
+    margin: 7rem 0 10rem 27rem;
+  }
+
+  .dd-paragraph {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3.4rem;
+  }
+
+  .dd-paragraph::after {
+    content: "";
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    background-color: #fff;
+    box-shadow: -10rem 10rem 20rem 15rem rgba(168, 166, 166, 0.478);
+  }
+}
+
+/*______MEDIA QUERY (1712px)  */
+@media (max-width: 96em) {
+  /* SECTION____DEAL-DAY */
+  .deal-day {
+    color: #000;
+    background-color: #8b6e5a;
+    height: 60rem;
+    padding-left: 0rem;
+    gap: 0;
+  }
+
+  .dd-text-box .title {
+    font-size: 6rem;
+  }
+
+  .dd-paragraph {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+.dd-paragraph::after {
+  content: "";
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  background-color: #fff;
+  box-shadow: -35rem 10rem 20rem 15rem rgba(255, 255, 255, 0.351);
+}
+
+.boxes {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 7rem;
+}
+
+.box {
+  width:8rem;
+  height: 8rem;
+  background-color: #884f42;
+  text-align: center;
+  border: 0.3rem solid #000;
+  box-shadow: 1rem 0.6rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.box-number {
+  font-size: 3.8rem;
+}
+
+.box-day {
+  font-size: 1.5rem;
+
+}
+
+.dd-text-box .bp-btn {
+  color: #fff;
+  background-color: #000;
+  box-shadow: inset 0 0 0 0.2rem #000;
+}
+
+.dd-img-box img {
+  height: 66rem;
+  width: 60rem;
+  transform: translate(-10%, -9%);
+}
+}
